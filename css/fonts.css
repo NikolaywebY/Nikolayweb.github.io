@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face{
+
+font-family: 'Montserrat-Medium';
+
+src: url('../fonts/Montserrat/Montserrat-Medium.eot');
+
+src: url('../fonts/Montserrat/Montserrat-Medium?iefix') format('eot'),
+
+url('../fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+
+url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+}
+
+@font-face{
+
+font-family: 'ZingScriptRustSB';
+
+src: url('../fonts/ZingScriptRustSB/ZingScriptRustSBDemo-Base.otf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;}
+
+@font-face{
+
+font-family: 'Bebas Neue Bold';
+
+src: url('../fonts/BebasNeueBold/BebasNeue Bold.otf') format('truetype');
+
+src: url('../fonts/BebasNeueBold/BebasNeue Bold.eot');
+
+src: url('../fonts/BebasNeueBold/BebasNeue Bold?iefix') format('eot'),
+
+url('../fonts/BebasNeueBold/BebasNeue Bold.woff') format('woff'),
+
+url('../fonts/BebasNeueBold/BebasNeue Bold.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;}
+
+
+
+@font-face{
+
+font-family: 'Montserrat-Regular';
+
+src: url('../fonts/Montserrat/Montserrat-Regular.eot');
+
+src: url('../fonts/Montserrat/Montserrat-Regular?iefix') format('eot'),
+
+url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+
+url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+}

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+   padding-top: 20px;
+}
+#header{min-height: 130px;background-color: #fff;}
+#content{background-image: url('../img/bg.jpg');background-size: cover;background-position: top center;background-repeat: no-repeat;min-height: 690px;}
+#footer{min-height: 60px;background-color: #F1F1F1;padding-top: 20px;}
+h1{font-family:'ZingScriptRustSB';font-size: 23px;border: 2px #000000 solid;
+padding: 12px 9px;}
+.phone{font-family: 'Montserrat-Medium';font-size: 24px;padding-top: 30px;}
+.call{margin-top: 32px;}
+.call a{font-family: 'Montserrat-Medium';font-size: 14px;color: #000000;}
+.call a:hover{text-decoration: none;border-bottom: 0.19em red dotted;}
+.call a:focus{text-decoration: none;}
+.man img{border-radius: 35px;float: left;margin-right: 15px;}
+.man p{font-size: 12px;}
+h4{font-size: 16px;padding-top: 10px;}
+.center{text-align: center;}.text-footer{float: right;color: #ababab;}.text-footer2{float: center;color: #ababab;margin-bottom: 20px;}
+#footer a{font-size: 12px;font-family: 'Montserrat-Regular'; color: #ababab;}
+.title{height: 115px;margin-top: 40px;background-image:url('../img/banner.png');background-size: contain;background-position: top center;background-repeat: no-repeat;}
+h2{font-family: 'Bebas Neue Bold';font-size: 72px;text-align: center;padding-top: 15px;}
+h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top: 0}
+.mishki .img-1{width: 100%;margin-top: -70px;}
+.mishki .img-2{width: 93px;height: 103px;position: absolute;z-index: 1;margin-top: -50px;margin-left: -80px;}
+.block-border{font-family: 'Bebas Neue Bold';color: #fff;z-index: 0;
+  border-radius: 80px;background-color: #BE314F;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.price-top{font-family: 'Open Sans';font-size:16px;padding-top: 20px;}
+.price{font-size: 60px;margin-top: -20px;}
+.price-bottom{font-family: 'Open Sans';font-size:16px;margin-top: -20px;}
+.m-1{margin-left: 190px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
+.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.form{border-radius: 15px;padding: 15px;margin-top: 25px;background-color: #fff;height:532px;width: 100%;}
+.form .f{margin-top: 10px;text-align:center;font-size: 12px;font-family: 'Montserrat-Regular';}
+.form .xx{margin-top: 20px;text-align:center;font-size: 10px;font-family: 'Montserrat-Regular';}
+.form .x{width: 100%;margin-top: 10px;text-align:left;font-size: 8px;font-family: 'Montserrat-Regular';}
+.form input{border-radius: 25px;height: 40px;width: 100%;background-color: #F1F1F1;text-align: center;font-family: 'Montserrat-Regular';outline:none;border: 1px #ddd solid;}
+.form button{text-transform: uppercase;width: 100%;color: #fff;font-size: 12px;font-weight: 700;margin-top: 20px;border-radius: 25px;height: 50px; background-image: url('../img/bg_button.png');outline:none;}
+
+.form input[type=checkbox] {
+   height: 18px;width: 11%;float: left;
+}
+.banner{
+    border: 1px;
+    border-style:solid;
+    border-top-color:red;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    min-height: 128px;
+    margin-top: 50px;
+}
+.banner-block{margin-top: 20px;font-family: 'Bebas Neue Bold';font-size: 24px;}
+.banner-block img{margin-top: 10px;margin-right: 15px;float: left;width: 44px;height: 44px;}
+/*Planshet*/
+@media (max-width: 997px) {
+ .man img{float:none;margin: 0;} 
+ .man{text-align: center;margin-top: 50px;}
+ .form{margin-top: 400px;}
+ #footer{text-align: center;}
+.m-1{margin-left: 120px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
+.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
+  }
+
+  /*Mobile and */
+@media (max-width: 768px) {
+.m-1{margin-left: 70px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
+.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
+}
+
+  /*Mobile and */
+@media (max-width: 650px) {
+.block-border{width: 130px;height: 130px;}  
+.m-1{margin-left: 0px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
+.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
+.mishki .img-2{width: 93px;height: 103px;position: absolute;z-index: 1;margin-top: -70px;margin-left: -80px;}
+}
